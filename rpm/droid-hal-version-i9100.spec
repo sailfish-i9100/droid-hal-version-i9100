@@ -1,7 +1,9 @@
 # Feel free to cleanup this file by removing comments, once you have memorised them ;)
 
-%define device i9100
-%define vendor samsung
+# rpm_device is the name of the ported device
+%define rpm_device i9100
+# rpm_vendor is used in the rpm space
+%define rpm_vendor samsung
 
 # Manufacturer and device name to be shown in UI
 %define vendor_pretty Samsung
